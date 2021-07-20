@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-body {
-    display: flex;
-}
-
 .articles {
     display: flex;
 }
@@ -17,17 +13,12 @@ body {
     margin: 16px;
 }
 
-.visible-text {
-    visibility: visible;
-}
-
 .cropped {
     overflow: hidden;
 }
 
 .both-scrolls {
-    overflow-x: scroll;
-    overflow-y: scroll;
+    overflow-x: scroll scroll;
     cursor: all-scroll;
 }
 

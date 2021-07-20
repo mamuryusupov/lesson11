@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+.gallery {
+    display: inline-block;
+}
+
+.thumb {
+    margin: 8px;
+    overflow-y: scroll;
+    cursor: all-scroll;
+}

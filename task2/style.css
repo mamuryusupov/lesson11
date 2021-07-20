@@ -18,7 +18,7 @@
 }
 
 .both-scrolls {
-    overflow-x: scroll scroll;
+    overflow: scroll scroll;
     cursor: all-scroll;
 }
 

@@ -3,7 +3,9 @@
 }
 
 .gallery {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     overflow-y: scroll;
     cursor: all-scroll;
 }

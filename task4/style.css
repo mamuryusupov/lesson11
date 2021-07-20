@@ -6,12 +6,12 @@
     margin: 16px;
     border-bottom: 1px dotted black;
     position: relative;
-    width: 100px;
-    /* display: inline-block; */
+    width: auto;
+    display: inline-block;
 }
 
 .text:hover .tooltip {
-    display: block;
+    display: inline-block;
 }
 
 .tooltip {

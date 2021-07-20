@@ -4,10 +4,10 @@
 
 .gallery {
     display: inline-block;
+    overflow-y: scroll;
+    cursor: all-scroll;
 }
 
 .thumb {
     margin: 8px;
-    overflow-y: scroll;
-    cursor: all-scroll;
 }
